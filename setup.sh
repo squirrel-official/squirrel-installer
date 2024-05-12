@@ -7,7 +7,7 @@ sudo apt upgrade -y
 sudo apt install -y python3-pip libjpeg-dev zlib1g-dev libssl-dev libgtk2.0-dev pkg-config ffmpeg libsm6 libxext6 cmake python3-opencv libportaudio2 libatlas-base-dev v4l2loopback-dkms avahi-dnsconfd openjdk-17-jdk libhdf5-dev
 
 # Install Python packages
-sudo -H pip3 install Pillow dlib face_recognition numpy opencv-contrib-python tflite-support tensorflow-aarch64 h5py deepface tf-keras mediapipe facenet-pytorch ultralytics
+sudo pip3 install Pillow dlib face_recognition numpy opencv-contrib-python tflite-support tensorflow-aarch64 h5py deepface tf-keras mediapipe facenet-pytorch ultralytics
 
 # Set permissions (if necessary)
 # sudo chmod -R 777 .
