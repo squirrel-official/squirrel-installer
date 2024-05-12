@@ -8,7 +8,7 @@ sudo apt install -y python3-pip libjpeg-dev zlib1g-dev libssl-dev libgtk2.0-dev 
 
 sudo pip3 install --upgrade pip
 # Install Python packages
-sudo pip3 install Pillow dlib numpy opencv-contrib-python tflite-support tensorflow-aarch64 h5py deepface tf-keras mediapipe facenet-pytorch ultralytics
+sudo pip3 install Pillow dlib numpy opencv-contrib-python tflite-support tensorflow-aarch64 h5py deepface tf-keras mediapipe facenet-pytorch ultralytics --break-system-packages
 
 # Set permissions (if necessary)
 # sudo chmod -R 777 .
